@@ -5,9 +5,10 @@ import styled from 'styled-components';
 function SideMenuLink({name, isActive, icon}) {
     const Container = styled.div`
         border-radius: 20px;
-        background-color: ${isActive ? '#E6EAEE' : '#F8FAFC'};
+        background-color: ${isActive ? 'rgba(100, 116, 139, 0.12);' : '#F8FAFC'};
         padding-top: 12px;
         padding-bottom: 12px;
+        
 
         &:hover {
             opacity: 0.8;
