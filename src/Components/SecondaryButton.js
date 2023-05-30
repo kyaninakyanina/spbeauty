@@ -13,9 +13,14 @@ function SecondaryButton(props) {
         color: #152842;
         &:hover {
             background: #FFFFFF;
+            opacity: 0.8;
+            border-radius: 24px;
+            color: #64748B;
+            border: 1px 0.8;
         }
         &:active {
             background: #FFFFFF;
+            opacity: 0.6;
         }
     `;
     return (
