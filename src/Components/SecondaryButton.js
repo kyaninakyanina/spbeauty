@@ -6,15 +6,15 @@ function SecondaryButton(props) {
     let minWidth = props.minWidth === undefined ? '144px' : props.minWidth;
     const Button = styled.div`
         background: #FFFFFF;
-        border: 1px solid #DFDFDF;
+        border: 1px solid #64748B;
         box-shadow: inset 0px 1px 2px rgba(10, 15, 26, 0.08);
         min-width: ${minWidth};
         color: #152842;
         &:hover {
-            background: linear-gradient(180deg, #DFEAF1 0%, #CFDDE8 100%);
+            background: #FFFFFF;
         }
         &:active {
-            background: #DFDFDF;
+            background: #FFFFFF;
         }
     `;
     return (
