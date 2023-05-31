@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 function PrimaryButton(props) {
     // Здесь устанавливается минимальная ширина для кнопки
-    let minWidth = props.minWidth === undefined ? '144px' : props.minWidth; 
+    let minWidth = props.minWidth === undefined ? '217px' : props.minWidth; 
     const Button = styled.div`
         background: #3B82F6;
         border-radius: 24px;
@@ -14,6 +14,8 @@ function PrimaryButton(props) {
         color: white;
         &:hover {
             background: #3B82F6;
+            opacity: 0.8;
+            border-radius: 24px;
         }
         &:active {
             background: #152842;
